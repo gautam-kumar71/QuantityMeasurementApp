@@ -14,3 +14,18 @@ measured in feet in the Quantity Measurement Application.
 
 🔗 *Code Link:*  
 [Day 1 – UC1: Feet measurement equality](https://github.com/gautam-kumar71/QuantityMeasurementApp/tree/feature/UC1-FeetEquality)
+
+## 🗓 UC2: Feet and Inches measurement equality
+*(Date: 18-Feb-2026)*
+
+- Creating Inchs class which is responsible for checking the equality of two numerical values
+measured in feet in the Quantity Measurement Application.
+- Creating JUnit test cases : 
+  - testEquality_SameValue()
+  - testEquality_DifferentValue()
+  - testEquality_NullComparison()
+  - testEquality_NonNumericInput()
+  - testEquality_SameReference()
+
+🔗 *Code Link:*  
+[UC2: Feet and Inches measurement equality](https://github.com/gautam-kumar71/QuantityMeasurementApp/tree/feature/UC2-InchEquality)
