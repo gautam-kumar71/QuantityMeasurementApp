@@ -222,3 +222,26 @@ measured in feet in the Quantity Measurement Application.
 
 🔗 *Code Link:*  
 [UC8: Refactoring Unit Enum to Standalone](https://github.com/gautam-kumar71/QuantityMeasurementApp/tree/feature/UC8-StandaloneUnit)
+
+# Quantity Measurement App – UC9 (Weight Equality, Conversion, and Addition)
+
+### 📌 Overview
+
+- Introduces support for weight measurements (`kg`, `g`, `lb`).
+
+### ⚙️ Use Case: UC9 – Weight Measurement
+
+- Equality comparison  
+- Unit conversion  
+- Addition operations  
+
+### ⚙️ Key Implementation Points
+
+- `WeightUnit enum` (base unit: kilogram)  
+- `QuantityWeight class`  
+- Cross-unit equality  
+- Conversion via base unit  
+- Immutable design  
+
+🔗 **Code Link:**  
+[UC9: Weight Measurement Equality, Conversion, and Addition (Kilogram, Gram, Pound)](https://github.com/gautam-kumar71/QuantityMeasurementApp/tree/feature/UC9-WeightMeasurement)
