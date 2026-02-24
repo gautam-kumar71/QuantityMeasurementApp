@@ -316,3 +316,26 @@ measured in feet in the Quantity Measurement Application.
 
 
 ---
+### ⚙️ Use Case: UC13 Centralised Arithmetic Logic
+
+- Eliminate repeated logic across the add, subtract, and divide methods
+- Ensure consistent validation and error handling for all arithmetic operations
+- Improve readability and maintainability of arithmetic logic
+- Provide a scalable foundation for future operations (multiply, modulo, etc.)
+- Preserve all UC12 behaviour and existing test cases
+
+### ⚙️ Key Implementation Points (Brief)
+
+- Centralised validation logic in one private helper method.
+- Single helper for base-unit conversion and arithmetic.
+- `ArithmeticOperation` enum (ADD, SUBTRACT, DIVIDE) encapsulates operation logic.
+- `add`, `subtract`, `divide` delegate to shared helpers.
+- Implicit and explicit target unit behaviour preserved.
+- Public APIs unchanged; UC12 tests pass as-is.
+- DRY enforced, cleaner code, easier future extension.
+
+🔗 **Code Link:**  
+[UC13: Centralized Arithmetic Logic to Enforce DRY in Quantity Operations](https://github.com/gautam-kumar71/QuantityMeasurementApp/tree/feature/UC13-ArithematicOperation)
+
+
+---
